@@ -26,12 +26,8 @@ ul {
     text-decoration: none;
   }
   
-  li a:hover:not(.active) {
+  li a:hover {
     background-color: #111;
-  }
-  
-  .active {
-    background-color: #2004aa;
   }
 
   #test {
@@ -63,4 +59,25 @@ ul {
     height: 50px;
     color: white;
     text-align: center;
+}
+
+input{
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  box-sizing: border-box;
+  background-color: rgb(227, 240, 252);
+  }
+
+button {
+  height: 30px;
+  width: 70px;
+  margin-top: 20px;
+  background-color: rgb(227, 240, 252);
+  border: none;
+}
+
+button:hover {
+  background-color: rgb(147, 194, 239);
 }
