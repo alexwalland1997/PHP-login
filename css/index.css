@@ -1,5 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color:ivory;
 }
 
 ul {
@@ -15,15 +17,12 @@ ul {
     border-right:1px solid #bbb;
   }
   
-  li:last-child {
-    border-right: none;
-  }
   
   li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 16px  ; 
     text-decoration: none;
   }
   
@@ -34,3 +33,34 @@ ul {
   .active {
     background-color: #2004aa;
   }
+
+  #test {
+    width: 60%;
+    margin-left: 20%;
+    height: 600px;
+    background-color: aliceblue;
+    text-align: center;
+  }
+
+  h1 {
+    padding-top: 25px;
+    font-weight: 500;
+    font-size: 40px;
+  }
+
+  #test p {
+    padding-top: 100px;
+    line-height: 2rem;
+    font-size: 20px;
+  }
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: cadetblue;
+    height: 50px;
+    color: white;
+    text-align: center;
+}

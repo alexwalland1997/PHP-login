@@ -1,19 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Log in system</title>
-    <link rel="stylesheet" href="css/index.css">
-</head>
-<body>
+<?php
+    include_once 'header.php'
+?>
 
-    <ul>
-        <li><a href="index.php">Home</a></li>
-        <li><a href="register.php">Register</a></li>
-        <li><a href="signin.php">Log in</a></li>
-    </ul>
-
+    <div id="test">
     <h1>Hello World!</h1>
-</body>
-</html>
+    <p> You have found my php experimental page. <br> 
+    Here I will be trying out a log in system. <br>
+    You are user on my site </p>
+</div>
+
+<?php
+    include_once 'footer.php'
+?>
