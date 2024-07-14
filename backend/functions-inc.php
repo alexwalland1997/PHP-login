@@ -79,7 +79,7 @@ function createUser($conn, $username, $email, $password) {
     exit(); 
 }
 
-function loginUser($conn, $username, $pword) {
+function loginUser($conn, $username, $password) {
     $uidExists = userAvail($conn, $username, $username);
 
     if ($uidExists === false) {
@@ -88,7 +88,7 @@ function loginUser($conn, $username, $pword) {
     }
 
     $pwordHashed = $uidExists["pword"];
-    $checkpwd = password_verify($pword, $pwordHashed);
+    $checkpwd = password_verify($password, $pwordHashed);
 
     if ($checkpwd === false) {
         header("location: ../signin.php?error=incorrectpword");

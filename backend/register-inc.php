@@ -20,7 +20,7 @@ if (isset($_POST["submit"])) {
         exit();
     }
 
-    if (pwordMatch($password, $passwordRP) !== false) {
+    if (pwordMatch($password, $passwordRP) == false) {
         header("location: ../register.php?error=pwordnotmatch");
         exit();
     }
