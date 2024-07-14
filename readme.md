@@ -16,11 +16,11 @@
     ## Installation
     *Instructions on how to install the project and run it*
   
-      in order to run this site you would need to have a mysqli database with a database called users with a table called login with username email and password variables needed then run the site on localhost ## Tests
+  in order to run this site you would need to have a mysqli database with a database called users with a table called login with username email and password variables needed then run the site on localhost ## Tests
     *The following are tests that I have run on this project*
+      The tests can be found in the test vid found in the files
   
-      undefined
-      ## License
+    ## License
     *The project is protected by the following license*
   
     The Unlicense
