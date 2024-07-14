@@ -1,3 +1,7 @@
+<?php 
+    session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,6 +14,14 @@
 
     <ul>
         <li><a href="index.php">Home</a></li>
-        <li><a href="register.php">Register</a></li>
-        <li><a href="signin.php">Log in</a></li>
-    </ul>
+        <?php
+            if (isset($_SESSION["user"])) {
+                echo "<li><a href='backend/logout-inc.php'>Log out</a></li>";
+            }
+            else {
+                echo "<li><a href='register.php'>Register</a></li>";
+                echo "<li><a href='signin.php'>Log in</a></li>";
+            }
+        ?>
+         </ul>
+
