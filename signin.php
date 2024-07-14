@@ -3,12 +3,12 @@
 ?>
 
     <div id="test">
-        <h1>Sign Up </h1>
-        <form action="signin-inc.php" method="post">
-            <input type="text" name="username" placeholder="Enter your Username">
-            <input type="text" name="pword" placeholder="Enter your Password">
+        <h1>Log in</h1>
+        <form action="backend/signin-inc.php" method="post">
+            <input type="text" name="username" placeholder="Enter your Username" required>
+            <input type="password" name="pword" placeholder="Enter your Password" required>
             <br>
-            <button type="submit" name="button">Sign Up</button>
+            <button type="submit" name="log in">Log in</button>
         </form>
     </div>
 

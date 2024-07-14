@@ -81,3 +81,13 @@ button {
 button:hover {
   background-color: rgb(147, 194, 239);
 }
+
+.error {
+  color: red;
+  margin-top: -50px;
+}
+
+.success {
+  color: green;
+  margin-top: -50px;
+}
